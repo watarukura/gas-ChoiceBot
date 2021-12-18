@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.41",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "scripts": {
+    "lint:eslint": "eslint code.ts",
+    "lint:fix": "eslint --fix code.ts",
+    "push": "clasp push",
+    "open": "clasp open"
+  }
+}

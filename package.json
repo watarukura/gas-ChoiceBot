@@ -15,6 +15,7 @@
     "lint:eslint": "eslint code.ts",
     "lint:fix": "eslint --fix code.ts",
     "push": "clasp push",
-    "open": "clasp open"
+    "open": "clasp open",
+    "deploy": "clasp deploy"
   }
 }
